@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.sec1-img img{
+    height: 150px;
+}
+.sec1-text{
+    margin: 10px 100px 10px 0;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(247, 249, 250);
+    background-size: auto;
+    
+}
+
+.sec1-text h2{
+    color: brown;
+    letter-spacing: 3px;
+    border-bottom: 2px solid brown;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 800;
+}
+.sec1-text h1{
+    letter-spacing: 10px;
+    font-weight: 900;
+    font-size: 50px;
+}
+.sec1-text h4{
+    letter-spacing: 4px;
+    font-family: sans-serif;
+}
+.sec1-text h2, h1, h4{
+    height: 50px;
+}
+/* /* ---------------------------------SECTION 2-------------- */
+
+
+.section2{
+    background-color: rgb(102, 1, 1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.sectext{
+    display: flex;
+    list-style: none;
+    float: right;
+    padding: 15px;
+    text-size-adjust: 10px;
+}
+.sectext li{
+    padding-right: 40px;
+    font-weight: 900;
+    cursor: pointer;
+}
+/* --------------------------SECTION --------------------------------------------------------------- */
+
+section{display: flex;}
+.sec3{
+    width: 50%;
+    margin: 15px;
+}
+.sec4{
+      background-image: url(form_bg.jpg) ;
+      background-size: cover;
+}
+.text{display: flex;}
+
+.text h1{ 
+    background-color: rgb(102, 1, 1);
+    font-size: 30px; 
+    color: white;
+    padding:  10px 8px 0px 8px  ;
+
+}
+.text p{
+     font-size: 25px;
+     font-weight: 200;
+     margin-top: 30px;
+     margin-left: 50px;
+    }
+form p{
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 20px;
+    z-index: index -1;
+}
+input{
+    margin-top: 20px;
+    
+}
+label{
+    margin-left: 80px;
+}
+textarea{
+    margin-left: 80px;
+}
+.rotate{
+    display: flex;
+    
+}
+.img-rotate img{
+    margin-top: 35px;
+    transform: rotate(15deg);
+    margin-left: 30px;
+    width: 220px;
+}
+.btn{
+    background-color:rgb(102, 1, 1);
+    color: white;
+    border: none;
+    padding: 10px 5px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-family: 50px;
+    margin-top: -10px;
+    
+    
+    
+    
+}
+.privacy{
+    display: flex;
+    margin-top: 15px;
+}
+.privacy p{
+    font-size: 15px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+/* ------------------------------------------------------------------------------------------------ */
+
+                
+
+                               .maiin{
+                                     display: flex;
+                                     justify-content: space-around;
+                                     margin-top: 70px; 
+                                    }
+
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+.col0text button{
+background-color: red;
+    border: none;
+    width: 120px;
+    height: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 90px;
+}
+.col0text h2{
+    font-size: 30px;
+}
+.col0text button{
+    background-color: rgb(102, 1, 1);
+    color: white;
+    border: none;
+    margin-left: 160px;
+    cursor: pointer;
+}
+.col0text{
+    display: flex;
+    cursor: pointer;
+}
+.col0text p{
+    font-size: 18px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col0text h4{
+    font-size: 23px;
+    color: brown;
+    
+}
+.paste {
+    margin-top: 80px;
+    margin-left: -50px;
+}
+.paste img{
+    width: 90px;
+}
+/* ---------------------- col2---------------------------------------------------------- */
+.col2{
+    border-left: 1px black;
+    border-right: 10px black;
+}
+
+
+
+.col2text h2{
+    margin-bottom: 10PX;
+}
+.col2text p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col2text{
+    display: flex;
+  }
+.col2 button{
+    background-color: rgb(102, 1, 1);
+    color: white;
+    margin-left: 50px;
+    border: none;
+    height: 30px;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.col2text img{
+    margin-top: 10px;
+    width: 150PX;
+}
+                                    /* ---- PART 2------- */
+   .col22{
+    display: flex;
+   }
+    .col22 p{
+        font-size: 20px;
+    }
+    .col22 img{
+        width: 160px;
+    }                             
+/* -----------------col3-------------------------------------------------------------------------- */
+
+.col3 span{
+    color: rgb(102, 1, 1);
+}
+.col3 p{
+    font-size: 20px;
+    margin-top: 8px;
+}
+.col3 img{
+    margin-bottom: 10px;
+}
+.col3 button{
+    background-color: rgb(102, 1, 1);
+    color: white;
+    margin-left: 100px;
+    border: none;
+    height: 30px;
+    width: 120px;   
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    cursor: pointer;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+.lastsec{
+    margin-left: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+.lastbox{
+    margin-bottom: 20px;
+}
+.lastbox span{
+    color: rgb(102, 1, 1);
+}
+
+.paragraph{
+        background-color: rgb(102, 2, 2);
+        width: 10px;
+        height: 90px;
+}
+.lastest{
+    background-color: rgb(138, 132, 132);
+    width: 280px;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 10PX;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0px 10px 10px rgb(61, 61, 61);
+}
+.lastest div{
+    padding: 10px;
+}
+.clo{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+
+}
+.blur{
+    color: rgb(218, 213, 213);
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 45px;
+
+}
+.lastest button{
+    margin-left: 140px;
+    margin-top: 30px;
+    background-color: rgb(138, 132, 132);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+.lastest h2{
+    color: white;
+    font-size: 20px;
+}
+
+.lastsec span{
+    color: rgb(102, 1, 1);
+}   
+/* ------------------------------------------------------------------------------------------ */
+
+
+.lorem{
+    font-size: 20px;
+    text-align: justify;
+    align-items: center;
+    
+}
+.lorem p{
+    line-height: 30px;
+}
+
+
+
+    /* ----------------------------------------------------------------------------------------------- */
+
+.client button{
+    background-color: rgb(250, 33, 33);
+    border: none;
+    margin-left: 40px;
+    color: white;
+    cursor: pointer;
+}
+/* ------------- */
+.client{
+    margin-left: 100px;
+    margin-bottom: inline;
+}
+.client h3 {
+    font-size: 23px;
+}
+.client p{
+    font-size: 17px;
+}
+.client button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 25px;
+    width: 115px;
+    cursor: pointer;
+}.client img{
+    margin-bottom: 30px;
+}
+/* -------------------------------------------------------------- */
+.icons h3{
+    border-bottom: 2px solid gray;
+    margin-bottom: 15px;
+    box-shadow: 0px 6px 5px -6px gray;
+    text-align: center;
+}
+.imagess{
+    display: flex;
+    justify-content: space-around;
+}
